@@ -1,0 +1,76 @@
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "gill sans";
+}
+.topnav a:hover {
+  color: #808000;
+}
+
+body {
+  
+  background-color: #FDFDF0;
+  padding: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+.about-me {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 1px;
+    background-color: #FFFFF2;
+    border-radius: 5px;
+   font-family: "gill sans";
+   
+}
+
+.case-studies {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  
+}
+
+.case-study {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFF2;
+  border-style: solid;
+  border-color: #6B8E23;
+  font-family: "gill sans";
+}
+
+.h1 {
+  font-family: Baskerville, Times, sans-serif;
+  font-size: 26px;
+  color: #6B8E23;
+  text-align: center;
+  
+  
+}
+  .h2 {
+  font-family: "gill sans";
+  font-weight: lighter;
+  font-size: 18px; 
+  color: #6B8E23;
+    
+}
+  .h3 {
+  font-family: "gill sans";
+  font-weight: lighter;
+    
+}
